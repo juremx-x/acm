@@ -1,0 +1,264 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Configuramos el observer
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const element = entry.target;
+                    element.classList.remove('opacity-0'); // Quitamos la opacidad inicial
+                    element.classList.add('animate__animated', 'animate__fadeInUp');
+                    observer.unobserve(element); // Dejamos de observar después de la animación
+                }
+            });
+        }, { threshold: 0.5 });  // El elemento debe estar al 50% visible en la pantalla
+
+        // Seleccionamos todas las filas de entrada del formulario
+        const inputRows = document.querySelectorAll('.input-row');
+        inputRows.forEach(row => {
+            observer.observe(row); // Iniciamos la observación para cada fila
+        });
+    });
+</script>
+
+<style>
+    /* Estilo para el título */
+    .titulo-equipo {
+      font-size: 27px;
+      letter-spacing: -0.2px;
+      margin-bottom: 30px;
+      text-align: center;
+      /* Centrar el texto */
+    }
+
+    /* Estilo para las tarjetas */
+    .cardContainer {
+      margin-bottom: 30px;
+      margin: 20px auto;
+      /* Agregar margen de 20px */
+      text-align: center;
+      /* Centrar el contenido */
+    }
+
+    .card {
+      border-radius: 0px;
+      overflow: hidden;
+      /* Evitar que las esquinas de la imagen se salgan del contenedor */
+      box-shadow: 0 4px 8px rgba(255, 255, 255, 0);
+      /* Sombra suave */
+      transition: transform 0.3s;
+      /* Transición suave al hacer hover */
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin: 15px;
+      box-shadow: 10px 13px 40px 0px rgba(216, 216, 216, 0.46);
+      margin: 0px 15px 0px 15px;
+      --e-column-margin-right: 15px;
+      --e-column-margin-left: 15px;
+    }
+
+    @media (min-width: 769px) {
+      .card {
+        width: 33.333%;
+      }
+    }
+
+    @media (max-width: 769px) {
+      .card {
+        margin-bottom: 50px;
+      }
+    }
+
+    .card-deck {
+      margin-bottom: 50px;
+
+    }
+
+    @media (max-width: 999px) {
+      .card-deck {
+        display: block;
+      }
+    }
+
+    @media (min-width: 1000px) {
+      .card-deck {
+        display: flex;
+      }
+    }
+
+    @media (max-width: 570px) {
+      .card-deck {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+        text-align: center;
+      }
+    }
+
+
+    .card img {
+      width: 60%;
+      object-fit: cover;
+      border-radius: 0px 0px 0 0;
+      margin-top: -12px;
+      margin-bottom: -30px;
+
+    }
+
+    .card-body {
+      padding: 40px;
+      text-align: justify;
+      background: white;
+
+    }
+
+    .card-title {
+      font-size: 40px;
+      margin-bottom: 15px;
+      color: black;
+      background: white;
+      font-family: 'Oswald';
+      color: #C7031A;
+    }
+
+    *,
+    ::after,
+    ::before {
+      box-sizing: content-box;
+    }
+
+    .card-text {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: -15px;
+      color: black;
+      text-align: center;
+      line-height: 26px;
+    }
+
+    @media only screen and (max-width: 999px) {
+      .card-text {
+        font-size: 20px;
+      }
+    }
+
+    .btn-equipo {
+      background-color: #74078a;
+      color: white;
+      text-transform: uppercase;
+      font-weight: bold;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.4s;
+      display: block;
+      margin: 10px auto;
+      text-align: center;
+      font-size: large;
+      text-decoration: none;
+
+    }
+
+    .btn-equipo:hover {
+      background-color: #000000;
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+    }
+
+    .card-footer {
+      border: none;
+    }
+
+    .containermt-5 {
+      margin-right: auto;
+      margin-left: auto;
+      padding: 30px;
+      background: white;
+    }
+
+    .card {
+      --bs-card-spacer-y: 1rem;
+      --bs-card-spacer-x: 1rem;
+      --bs-card-title-spacer-y: 0.5rem;
+      --bs-card-title-color: ;
+      --bs-card-subtitle-color: ;
+      --bs-card-border-width: var(--bs-border-width);
+      --bs-card-border-color: var(--bs-border-color-translucent);
+      --bs-card-border-radius: var(--bs-border-radius);
+      --bs-card-box-shadow: ;
+      --bs-card-inner-border-radius: calc(var(--bs-border-radius) -(var(--bs-border-width)));
+      --bs-card-cap-padding-y: 0.5rem;
+      --bs-card-cap-padding-x: 1rem;
+      --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+      --bs-card-cap-color: ;
+      --bs-card-height: ;
+      --bs-card-color: ;
+      --bs-card-bg: var(--bs-body-bg);
+      --bs-card-img-overlay-padding: 1rem;
+      --bs-card-group-margin: 0.75rem;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      height: var(--bs-card-height);
+      color: var(--bs-body-color);
+      word-wrap: normal;
+      background-color: var(--bs-card-bg);
+      background-clip: border-box;
+      border: none;
+      border-radius: var(--bs-card-border-radius);
+      display: flex;
+      align-items: center;
+      border-radius: 25px 25px 25px 25px;
+
+    }
+  </style>
+ <style>
+    .animacion-personalizada {
+      animation-duration: 3.5s;
+      visibility: hidden;
+    }
+  </style>
+
+<div id="equipoecore" class="containermt-5 animate__animated animacion-personalizada">
+<div class="h10">
+      <h10><strong></strong></h10>
+    </div>
+    <div class="card-deck">
+      <!-- Tarjeta 1 -->
+      <div class="card">
+        <img src="IMAGENES/DIRECCION.png" alt="Imagen de equipo" class="card-img-top" width="127" height="125">
+        <div class="card-body">
+          <h5 class="card-title"><b>DIRECCION</b></h5>
+          <p class="card-text">1er Retorno de Chapultepec 17, Col.
+            Chapultepec, Cuernavaca, Morelos C.P. 62430
+          </p>
+        </div>
+      </div>
+      <!-- Tarjeta 2 -->
+      <div class="card">
+        <img src="IMAGENES/TELEFONO.png" alt="Imagen de equipo" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title"><b>TELÉFONO</b></h5>
+          <p class="card-text"> 722.622.3971
+          </p>
+        </div>
+      </div>
+      <!-- Tarjeta 3 -->
+      <div class="card">
+        <img src="IMAGENES/CORREO.png" alt="Imagen de equipo" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title"><b>CORREO</b></h5>
+          <p class="card-text">hola@acm.com.mx </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
