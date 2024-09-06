@@ -1,0 +1,133 @@
+   /* COLECCION DE (H) */
+
+   h2 {
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    }
+
+    @media (max-width: 999px) {
+    h2 {
+      font-size: 40px;
+      font-family: 'Poppins', sans-serif;
+      
+    }
+    }
+
+    h2 {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-family: '      font-family: 'Poppins', sans-serif;', sans-serif;
+    }
+
+   @media (max-width: 999px) {
+     h2 {
+      font-size: 27px;
+      margin-top: 50px;
+    }
+    }
+
+    h3 {
+    font-size: 50px;
+    color: #000000;
+    line-height: 20px;
+    font-family: '      font-family: 'Poppins', sans-serif;', sans-serif;
+    margin-left: 60px;
+    }
+
+    @media (max-width: 1300px) {
+    h3 {
+      font-size: 40px;
+      margin-left: 0px;
+
+    }
+    } 
+
+    @media (max-width: 770px) {
+    h3 {
+      margin-left: 0px;
+    }
+    } 
+
+    h4 {
+    font-size: 50px;
+    color: #00e1ff;
+    font-family: '      font-family: 'Poppins', sans-serif;', sans-serif;
+    line-height: .7;
+
+     }
+
+    @media (max-width: 999px) {
+    h4 {
+      font-size: 40px;
+    }
+    } 
+
+    h5 {
+    background-color: #ffffff;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    }
+
+    h8 {
+    font-size: 1.5rem;
+    font-family: '      font-family: 'Poppins', sans-serif;', sans-serif;
+    }
+
+
+    h11 {
+    font-size: 40px;
+    color: #000000;
+    font-family: '      font-family: 'Poppins', sans-serif;', sans-serif;
+
+    }
+
+    @media (max-width: 999px) {
+    h11 {
+      font-size: 30px;
+      color: #000000;
+      font-family: 'Poppins', sans-serif;
+    }
+    }
+
+    h11 {
+    font-size: 40px;
+    color: #ffffff;
+    font-family: '      font-family: 'Poppins', sans-serif;', sans-serif;
+    }
+
+    @media (max-width: 999px) {
+    h11 {
+      font-size: 30px;
+    }
+    }
+
+    h11 {
+    font-size: 40px;
+    color: #ffffff;
+    font-family: '      font-family: 'Poppins', sans-serif;', sans-serif;
+    }
+
+    @media (max-width: 999px) {
+    h11 {
+      font-size: 30px;
+      color: #000000;
+      font-family: 'Poppins', sans-serif;
+    }
+    }
+
+    h13 {
+    font-size: 50px;
+    color: #159d15;
+    font-family: '      font-family: 'Poppins', sans-serif;', sans-serif;
+    line-height: .7;
+
+
+    }
+
+    @media (max-width: 999px) {
+    h13 {
+      font-size: 40px;
+    }
+  }

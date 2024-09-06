@@ -1,0 +1,200 @@
+
+ 
+  .content__products__home {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0;
+  }
+  
+  .product__home {
+    width: -webkit-fill-available;
+    padding: 1rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    perspective: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .content__products__home {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0;
+    }
+    
+    .product__home {
+      width: 30%;
+      padding: 1rem;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      perspective: 500px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      margin-bottom: 0;
+    }
+  }
+
+
+
+
+  .product__home:hover .content__product__img img {
+    transform: scale(1.1);
+  }
+  @media (max-width: 768px) {
+.product__home:hover, .content__product__img img {
+    transform: none;
+}}
+  
+  .product__home:hover .content__text__product p,
+  .product__home:hover .content__text__product small {
+    transform: scale(1.1);
+  }
+  
+  .product__home:hover {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .content__product__img {
+    width: 50%;
+    height: 240px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.05);
+  }
+  
+  @media (min-width: 1580px) {
+  .content__product__img {
+    width: 50%;
+    height: 300px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.05);
+  }
+}
+@media (max-width: 769px) {
+.content__product__img {
+    width: 150px;
+    height: 160px;
+} }
+  .content__product__img img {
+    width: auto;
+    height: 70%;
+    margin: auto;
+    transition: transform 0.5s;
+  }
+  @media (max-width: 769px) {
+    .content__product__img img {
+        height: 100%;
+    }
+  }
+  
+  .content__text__product {
+    width: calc(100% - 420px);
+    transform-style: preserve-3d;
+  }
+  @media (max-width: 769px) {
+    .content__text__product {
+    width: 35%;
+    transform-style: preserve-3d;
+    }
+  }
+  
+  .content__text__product p {
+    font-size: 40px;
+    font-family: "Lilita One", sans-serif;
+    text-transform: uppercase;
+    line-height: 1;
+    margin: 0 0 0 15%;
+    color: #fff;
+    margin-left: 20px;
+
+  }
+  @media (max-width: 769px) {
+    .content__text__product p {
+        font-size: 25px;
+        margin-left: 20px;
+
+    }
+  }
+  
+  .content__text__product small {
+    font-size: 30px;
+    display: none;
+    margin: 0 0 0 15%;
+    color: #fff;
+  }
+  
+  sup {
+    top: -0.5em;
+  }
+  
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  
+  .product__home[data-id='home-products-maxi'] {
+    background-color: #d6d62c;
+    background-image: url(/IMAGENES/NUESTRAS_MARCAS/fondo_cont_niss3.png);
+  }
+  
+  .product__home[data-id='home-products-ramen'] {
+    background-color: #f07034;
+    background-image: url(/IMAGENES/NUESTRAS_MARCAS/fondo_cont_niss4.png);
+  }
+  
+  .product__home[data-id='home-products-ufo'] {
+    background-color: #d4a753;
+    background-image: url(/IMAGENES/NUESTRAS_MARCAS/fondo_cont_niss2.png);
+  }
+  
+  .product__home[data-id='home-products-noodles'] {
+    background-color: #da282f;
+    background-image: url(/IMAGENES/NUESTRAS_MARCAS/fondo_cont_niss1.png);
+  }
+  
+  @media (max-width: 768px) {
+    .product__home {
+      width: 100%;
+      padding: 0.5rem;
+    }
+  
+    .product__home:hover,
+    .content__product__img img {
+      transform: scale(1.1);
+    }
+  }
+  
+  .noodle:hover {
+    height: 14px;
+    margin-top: 5px;
+    margin-left: 15%;
+    margin-bottom: 10px;
+    display: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/IMAGENES/raya_ns.png);
+    transition: all 0.5s ease;
+  }
+  
+  .product__home:hover .noodleHover {
+    display: block;
+    transform: scaleX(1.2);
+  }

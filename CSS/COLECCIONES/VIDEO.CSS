@@ -1,0 +1,100 @@
+
+
+
+    /* COLECCION DE (VIDEO) */
+
+    videopc {
+        width: 0%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      }
+    
+      @media (min-width: 400px) {
+        videopc {
+          width: 100%;
+        }
+      }
+    
+      videopc video {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      }
+    
+      @media (max-width: 501px) {
+        videopc video {
+          width: 0%;
+        }
+      }
+    
+      videocel {
+        width: 100%;
+        height: 100%;
+      }
+    
+      @media (max-width: 501px) {
+        videocel {
+          width: 100%;
+        }
+      }
+    
+    
+      videocel video {
+        width: 0%;
+      }
+    
+      @media (max-width: 500px) {
+        videocel video {
+          width: 100%;
+        }
+      }
+    
+      videopc2 {
+        width: 0%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      }
+    
+      @media (min-width: 769px) {
+        videopc2 {
+          width: 100%;
+        }
+      }
+    
+      videopc2 video {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      }
+    
+      @media (max-width: 769px) {
+        videopc2 video {
+          width: 0%;
+        }
+      }
+    
+      videocel2 {
+        width: 100%;
+        height: 100%;
+      }
+    
+      @media (min-width: 769px) {
+        videocel2 {
+          width: 100%;
+        }
+      }
+    
+    
+      videocel2 video {
+        width: 0%;
+      }
+    
+      @media (max-width: 769px) {
+        videocel2 video {
+          width: 100%;
+        }
+      }

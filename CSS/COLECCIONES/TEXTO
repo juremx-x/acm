@@ -1,0 +1,328 @@
+   /* COLECCION DE (TEXTO) */
+
+  .texto2 {
+    flex: 1;
+    color: #000000;
+    padding: 40px;
+      font-family: 'Poppins', sans-serif;
+    margin: 10px;
+    text-align: center;
+  }
+
+  @media (min-width: 1301px) {
+    .texto2 {
+      font-size: 19px;
+      color: #646464;
+      line-height: 1.5;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 1300px) {
+    .texto2 {
+      font-size: 18px;
+      color: #646464;
+      line-height: 1.5;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 999px) {
+    .texto2 {
+      font-size: 20px;
+      padding-top: 100px;
+      padding-bottom: 100px;
+      padding: 40px;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .texto2 {
+      font-size: 18px;
+      padding: 0px;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 770px) {
+    .texto2 {
+      font-size: 16px;
+      padding: 60px;
+      text-align: center;
+
+    }
+  }
+
+  @media (max-width: 700px) {
+    .texto2 {
+      font-size: 16px;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 650px) {
+    .texto2 {
+      font-size: 16px;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .texto2 {
+      font-size: 16px;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 550px) {
+    .texto2 {
+      font-size: 16px;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .texto2 {
+      font-size: 16px;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 450px) {
+    .texto2 {
+      font-size: 16px;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .texto2 {
+      font-size: 16px;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 350px) {
+    .texto2 {
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+
+  .texto3 {
+    flex: 1;
+    color: #000000;
+      font-family: 'Poppins', sans-serif;
+    margin: 10px;
+    text-align: center;
+    }
+
+  @media (min-width: 1301px) {
+    .texto3 {
+      font-size: 22px;
+      color: #646464;
+      line-height: 1.5;
+    }
+  }
+
+  @media (max-width: 1300px) {
+    .texto3 {
+      font-size: 22px;
+      color: #646464;
+      line-height: 1.5;
+      padding: 0;
+
+    }
+  }
+
+  @media (max-width: 999px) {
+    .texto3 {
+      font-size: 20px;
+      padding-top: 100px;
+      padding-bottom: 100px;
+      padding: 0px;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .texto3 {
+      font-size: 18px;
+      padding: 0px;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 770px) {
+    .texto3 {
+      font-size: 16px;
+      padding: 0;
+
+    }
+  }
+
+  @media (max-width: 700px) {
+    .texto3 {
+      font-size: 16px;
+      padding: 0;
+
+    }
+  }
+
+  @media (max-width: 650px) {
+    .texto3 {
+      font-size: 16px;
+      padding: 0;
+
+    }
+  }
+
+  @media (max-width: 600px) {
+    .texto3 {
+      font-size: 16px;
+
+    }
+  }
+
+  @media (max-width: 550px) {
+    .texto3 {
+      font-size: 16px;
+
+    }
+  }
+
+  @media (max-width: 500px) {
+    .texto3 {
+      font-size: 16px;
+
+    }
+  }
+
+  @media (max-width: 450px) {
+    .texto3 {
+      font-size: 16px;
+
+    }
+  }
+
+  @media (max-width: 400px) {
+    .texto3 {
+      font-size: 16px;
+
+    }
+  }
+
+  @media (max-width: 350px) {
+    .texto3 {
+      font-size: 14px;
+
+    }
+  }
+
+  .texto4 {
+    flex: 1;
+    color: #000000;
+    padding: 40px;
+      font-family: 'Poppins', sans-serif;
+    margin: 10px;
+  }
+
+  @media (min-width: 1301px) {
+    .texto4 {
+      font-size: 19px;
+      color: #646464;
+      line-height: 1.5;
+    }
+  }
+
+  @media (max-width: 1300px) {
+    .texto4 {
+      font-size: 18px;
+      color: #646464;
+      line-height: 1.5;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 999px) {
+    .texto4 {
+      font-size: 20px;
+      padding-top: 100px;
+      padding-bottom: 100px;
+      padding: 40px;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .texto4 {
+      font-size: 18px;
+      padding: 0px;
+
+    }
+  }
+
+  @media (max-width: 770px) {
+    .texto4 {
+      font-size: 16px;
+      padding: 40px;
+      text-align: center;
+
+    }
+  }
+
+  @media (max-width: 700px) {
+    .texto4 {
+      font-size: 16px;
+
+    }
+  }
+
+  @media (max-width: 650px) {
+    .texto4 {
+      font-size: 16px;
+
+    }
+  }
+
+  @media (max-width: 600px) {
+    .texto4 {
+      font-size: 16px;
+
+    }
+  }
+
+  @media (max-width: 550px) {
+    .texto4 {
+      font-size: 16px;
+
+    }
+  }
+
+  @media (max-width: 500px) {
+    .texto4 {
+      font-size: 16px;
+
+    }
+  }
+
+  @media (max-width: 450px) {
+    .texto4 {
+      font-size: 16px;
+
+    }
+  }
+
+  @media (max-width: 400px) {
+    .texto4 {
+      font-size: 16px;
+
+    }
+  }
+
+  @media (max-width: 350px) {
+    .texto4 {
+      font-size: 14px;
+
+    }
+  }

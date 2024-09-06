@@ -1,0 +1,113 @@
+
+
+    /* COLECCION DE (IMAGEN) */
+
+    .imagen2 {
+        width: 40%;
+        height: auto;
+        float: right;
+        margin-left: 20px;
+    
+      }
+    
+      @keyframes moveUpDown {
+        0% {
+       
+        }
+    
+        100% {
+        
+        }
+      }
+    
+      @media (max-width: 1300px) {
+        .imagen2 {
+          width: 50%;
+          height: auto;
+          float: right;
+          margin-left: 20px;
+        }
+      }
+    
+      @media (max-width: 770px) {
+        .imagen2 {
+          width: 70%;
+          height: auto;
+          float: none;
+          display: block;
+          height: auto;
+          margin: 0 auto 110px auto;
+        }
+      }
+    
+      .imagen0 {
+        width: 40%;
+        height: auto;
+        float: right;
+        margin-left: 20px;
+      }
+    
+      @keyframes moveUpDown {
+        0% {
+          transform: translateY(-20px);
+        }
+    
+        100% {
+          transform: translateY(20px);
+        }
+      }
+    
+      @media (max-width: 1300px) {
+        .imagen0 {
+          width: 50%;
+          height: auto;
+          float: right;
+          margin-left: 0px;
+          margin-right: 30px;
+        }
+      }
+    
+      @media (max-width: 770px) {
+        .imagen0 {
+          width: 70%;
+          height: auto;
+          float: none;
+          display: block;
+          height: auto;
+          margin: 0 auto 110px auto;
+        }
+      }
+    
+      .imagen3 {
+        width: 50%;
+        height: auto;
+        float: right;
+      }
+    
+      @keyframes moveUpDown {
+        0% {
+          transform: translateY(-20px);
+        }
+    
+        100% {
+          transform: translateY(20px);
+        }
+      }
+    
+      @media (max-width: 1300px) {
+        .imagen3 {
+          width: 70%;
+          height: auto;
+          float: right;
+        }
+      }
+    
+      @media (max-width: 770px) {
+        .imagen3 {
+          width: 85%;
+          height: auto;
+          float: none;
+          margin-left: 7%;
+          margin-bottom: 110px;
+        }
+      }
